@@ -1,18 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Purple Rain</title>
     <meta name="description" content="A basic web page containing some text from Wikipedia about the 1983-recorded song Purple Rain by Prince">
+   
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        header {
+            @apply pt-8 px-[9%] pb-[42px] md:py-[3%] md:px-[20%];
+        }
+
+        header h1 {
+            @apply text-5xl md:text-6xl text-center font-bold mb-4;
+        }
+
+        section {   
+            @apply pt-8 px-[9%] pb-[42px] md:py-[3%] md:px-[20%];
+        }
+
+        section h2 {   
+            @apply mt-8;
+        }
+
+        section h3 {   
+            @apply mt-6;
+        }
+
+        section p {   
+            @apply mb-4;
+        }
+    </style>
+    <!--.Victor Gomes Alencar. 82746.-->
 </head>
 
 <body>
-
     <header>
         <h1>Purple Rain</h1>
     </header>
-
     <main>
         <section>
             <h2>Introduction</h2>
@@ -32,6 +59,5 @@
             <p><a href="../index.html">Back to Home page</a></p>
         </section>
     </main>
-
 </body>
 </html>
