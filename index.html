@@ -3,28 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website</title>
-    <meta name="description" content="A personal website showcasing sample web pages and recent web design work.">
+    <title>My Home Page</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @layer base {
+            body {
+                @apply font-sans p-2;
+            }
+            h1 {
+                @apply text-[1.5em] font-bold my-[0.60em];
+            }
+            h2 {
+                @apply text-[1.2em] font-bold my-[0.73em];
+            }
+            h3 {
+                @apply text-[1.17em] font-bold my-[1em];
+            }
+            p {
+                @apply my-4;
+            }
+            a {
+                @apply text-blue-700 underline;
+            }
+        }
+    </style>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">    
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">    
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">    
+    <link rel="manifest" href="assets/img/favicons/site.webmanifest">
 </head>
 
 <body>
-
-    <header>
-        <h1>Hi, I'm Mary Smith</h1>
-        <h2>Web / UI Designer</h2>
-    </header>
-
-    <main>
-        <section>
-            <p>I created this website to showcase some of my recent web design work.</p>
-
-            <h3>Sample Web Pages</h3>
-
-            <p><a href="exercises/page-1.html">A Tale of Two Cities</a></p>
-            <p><a href="exercises/page-2.html">Purple Rain</a></p>
-            <p><a href="exercises/page-3.html">Web Page with Sections</a></p>
-        </section>
-    </main>
-
+    <h1>Welcome to My Home Page</h1>
+    <p>This is a simple HTML page that serves as the home page for my website. Here, you can find information about me, my interests, and links to other pages on my site.</p>
+    <p><a href="exercises/page-1.html">A Tale of Two Cities</a></p>
+    <p><a href="soccer.html">The World's Top Three Soccer Players</a></p>
+    <p><a href="laptops.html">Three Top-Selling Laptop Computers</a></p>
+    <p><a href="exercises/page-2.html">Purple Rain</a></p>
+    <p><a href="exercises/page-3.html">Web Page with Sections</a></p>
 </body>
 </html>
